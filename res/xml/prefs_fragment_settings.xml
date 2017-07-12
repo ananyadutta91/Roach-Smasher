@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res/com.example.RoachSmasher">
+
+    <PreferenceCategory 
+        android:title="Settings" >
+    
+        <Preference 
+    	    android:title="RoachSmasher"
+    	    android:summary="Copyright 2015 By Ananya Dutta"
+    	    android:selectable="false"/> 
+    	    
+          <Preference 
+    	    android:title="Best High Score"
+    	    android:summary="0"
+    	    android:key="prefs_highscore"   
+    	    android:selectable="false"/>
+    	 
+    	<!-- <CheckBoxPreference 
+    	    android:title="Play Background Music"
+    	    android:key="prefs_music_enabled_background"
+    	    android:defaultValue="true" /> -->
+
+    	
+ 	</PreferenceCategory>	   
+</PreferenceScreen>
